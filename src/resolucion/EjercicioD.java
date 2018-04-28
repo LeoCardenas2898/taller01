@@ -28,11 +28,7 @@ public class EjercicioD {
 		}else {
 			System.out.println("No es capicua. ");
 		}
-		
-		 
-		
+			
 	}
 	
-
-
 }

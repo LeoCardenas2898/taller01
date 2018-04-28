@@ -11,9 +11,7 @@ public class EjercicioD {
 			invertir=invertir*10+res;
 			dato=dato/10;			
 		}
-		
 		return invertir;
-		
 	}
 
 	public static void main(String[] args) {

@@ -35,12 +35,6 @@ public class EjercicioE {
 		System.out.print("Los primeros "+cantidad+ " numeros capicuas son :");
 		System.out.println(Capicua);
 		
-		
-	
-		
-		
-	
-		
 	}
 
 }

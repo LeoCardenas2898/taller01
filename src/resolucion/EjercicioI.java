@@ -10,11 +10,13 @@ public class EjercicioI {
 		Scanner console = new Scanner(System.in);
 		System.out.print("Ingrese el tamaño del vector: ");
 		int n = console.nextInt();
-		Vector<Integer> vector = new Vector<Integer>(n);
-		vector.addElement(2);
-		vector.addElement(2);
-		vector.addElement(2);
-		System.out.println(vector.size());
+		int [] Vector = new int[n];
+		System.out.println("El tamaño del vector es "+n+" y sus componentes son: ");
+		for(int i=0; i<n; i++) {
+			Vector[i]=(int)(Math.random()*10);
+			System.out.println(Vector[i]);
+		}
+		
 	}
 
 }

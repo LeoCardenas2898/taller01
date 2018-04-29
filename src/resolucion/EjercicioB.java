@@ -14,7 +14,6 @@ public class EjercicioB {
 	}
 
 	public static void main(String[] args) {
-		
 		int a, numero, resultado = 0;
 		Scanner console = new Scanner(System.in);
 		System.out.print("Ingrese el numero que desees obtener su complemento: ");

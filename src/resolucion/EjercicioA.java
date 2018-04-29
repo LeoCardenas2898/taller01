@@ -7,13 +7,11 @@ public class EjercicioA {
 	public static void  metodo1(Double a) {
 		Double b = a/180;
 		System.out.println(a+" equivale a "+String.format("%.2f", b)+"pi");
-		
 	}
 	
 	public static void  metodo2(Double numero2) {
 		Double b = numero2*180;
 		System.out.println(numero2+"pi"+" equivale a "+b+"°");
-		
 	}
 
 	public static void main(String[] args) {
@@ -29,7 +27,6 @@ public class EjercicioA {
 			System.out.print("Ingrese el numero en grados: ");
 			numero=console.nextDouble();
 			metodo1(numero);
-			
 			break;
 
 		case 2:
@@ -43,7 +40,4 @@ public class EjercicioA {
 			break;
 		}
 	}
-	
-	
-
 }

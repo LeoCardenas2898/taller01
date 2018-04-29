@@ -11,11 +11,9 @@ public class EjercicioJ {
 		System.out.print("Ingrese el tamaño del vector: ");
 		int n = console.nextInt();
 		int [] Vector = new int[n];
-		for(int i=0; i<n; i++) {
-			Vector[i]=(int)(Math.random()*10);
-		}
 		
 		for(int i=0; i<n; i++) {
+			Vector[i]=(int)(Math.random()*10);
 			System.out.println(Vector[i]);
 		}
 	}

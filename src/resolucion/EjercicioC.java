@@ -20,6 +20,6 @@ public class EjercicioC {
 		int a = console.nextInt();
 		System.out.print("Ingrese el segundo numero: ");
 		int b = console.nextInt();
-		System.out.println((a*b)/mcd(a, b));
+		System.out.println("El MCM es: "+(a*b)/mcd(a, b));
 	}
 }

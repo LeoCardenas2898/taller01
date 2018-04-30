@@ -8,4 +8,13 @@ public class TrabajadorUNTELS extends Persona{
 		
 	}
 
+	public TrabajadorUNTELS(String areaTrabajo, String horario, int fechaIngreso) {
+		super();
+		this.areaTrabajo = areaTrabajo;
+		this.horario = horario;
+		this.fechaIngreso = fechaIngreso;
+	}
+	
+	
+
 }

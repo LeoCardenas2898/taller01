@@ -45,13 +45,13 @@ class Personaje extends ComenzarJuego{
 	}
 }
 
-public class MarioBros {
+	public class MarioBros {
 	
-	public static void main(String[] args) {
-		Personaje personaje = new Personaje("Luigui");
-		System.out.println("Estoy eligiendo a "+personaje.getPersonaje());
-		System.out.print(personaje.ReanudarJuego(true));
+		public static void main(String[] args) {
+			Personaje personaje = new Personaje("Luigui");
+			System.out.println("Estoy eligiendo a "+personaje.getPersonaje());
+			System.out.print(personaje.ReanudarJuego(true));
 		
-	}
+		}
 
 }

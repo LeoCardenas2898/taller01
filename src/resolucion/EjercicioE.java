@@ -15,7 +15,6 @@ public class EjercicioE {
 		return invertir;
 	}
 	
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int cantidad, i=0, numero = 0;
@@ -32,9 +31,8 @@ public class EjercicioE {
 			numero++;
 		}
 		
-		System.out.print("Los primeros "+cantidad+ " numeros capicuas son :");
-		System.out.println(Capicua);
-		
+		System.out.print("Los primeros "+cantidad+ " numeros capicuas son: "+Capicua);
+	
 	}
 
 }
